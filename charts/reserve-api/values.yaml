@@ -15,8 +15,8 @@ namespace: stg
 
 resources:
   limits:
-    cpu: 20m
+    cpu: 50m
     memory: 100Mi
   requests:
-    cpu: 40m
+    cpu: 100m
     memory: 200Mi
