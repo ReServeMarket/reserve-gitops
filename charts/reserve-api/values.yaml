@@ -1,0 +1,22 @@
+replicaCount: 1
+revisionHistoryLimit: 3
+
+image:
+  repository: 975050251584.dkr.ecr.ap-northeast-2.amazonaws.com/dev/reserve-api
+  tag: "latest"
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8081
+
+namespace: stg
+
+resources:
+  limits:
+    cpu: 20m
+    memory: 100Mi
+  requests:
+    cpu: 40m
+    memory: 200Mi
