@@ -11,7 +11,7 @@ service:
   port: 80
   targetPort: 8081
 
-namespace: stg
+namespace: dev
 
 resources:
   limits:
