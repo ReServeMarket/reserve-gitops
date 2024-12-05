@@ -3,7 +3,7 @@ revisionHistoryLimit: 3
 
 image:
   repository: 975050251584.dkr.ecr.ap-northeast-2.amazonaws.com/dev/reserve-api
-  tag: 3c5cac4e243d6b977c5fd56974f87ab1533a7e6b
+  tag: f224680a1f74ce4a1c44a8fba264f261bcc4125e
   pullPolicy: Always
 
 service:
